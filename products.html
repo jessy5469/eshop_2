@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="products.css">
+    <nav style="align-items: center;">
+        <a href="index.html">Home</a> 
+        <a href="products.html">Products</a> 
+        <a href="contact.html">Contact us📱</a> 
+        <a href="cart.html">Cart🛒</a> 
+    </nav>
+</head>
+<body>
+<div class="product-container">
+    <div class="product-card">
+        <img src="/products/pic8.jpg" alt="Product 1" class="product-image">
+        <h2 class="product-title">Converse</h2>
+        <p class="product-price">ksh 3000</p>
+        <p>★★★☆☆</p>
+        <button onclick="addToCart('Product 1', 3000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="/products/pic2.jpg" alt="Product 2" class="product-image">
+        <h2 class="product-title">Sketchers</h2>
+        <p class="product-price">ksh 5000</p>
+        <p>★★★★★.</p>
+        <button onclick="addToCart('Product 2', 5000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="/products/pic5.jpg" alt="Product 3" class="product-image">
+        <h2 class="product-title">Vans</h2>
+        <p class="product-price">ksh 3500</p>
+        <p>★★★★☆</p>
+        <button onclick="addToCart('Product 3', 3500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="/products/pic6.jpg" alt="Product 4" class="product-image">
+        <h2 class="product-title">Nikes</h2>
+        <p class="product-price">ksh 2500</p>
+        <p>★★★★☆</p>
+        <button onclick="addToCart('Product 4', 2500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="/products/pic9.jpg" alt="Product 5" class="product-image">
+        <h2 class="product-title">Jordans</h2>
+        <p class="product-price">ksh 4500</p>
+        <p>★★★★★</p>
+        <button onclick="addToCart('Product 5', 4500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="/products/pic10.jpg" alt="Air force" class="product-image">
+        <h2 class="product-title">Air force</h2>
+        <p class="product-price">ksh 2000</p>
+        <p>★★★★☆</p>
+        <button onclick="addToCart('Product 6', 2000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="/products/pic11.png" alt="Air force" class="product-image">
+        <h2 class="product-title">Timberland</h2>
+        <p class="product-price">ksh 5500</p>
+        <p>★★★★☆</p>
+        <button onclick="addToCart('Product 7', 5500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="/products/pic12.jpg" alt="Air force" class="product-image">
+        <h2 class="product-title">Fila</h2>
+        <p class="product-price">ksh 7000</p>
+        <p>★★★★☆</p>
+        <button onclick="addToCart('Product 8', 7000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="/products/pic13.jpg" alt="Air force" class="product-image">
+        <h2 class="product-title">Gucci</h2>
+        <p class="product-price">ksh 8500</p>
+        <p>★★★★☆</p>
+        <button onclick="addToCart('Product 9', 8500)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="/products/pic14.jpg" alt="Air force" class="product-image">
+        <h2 class="product-title">New balance</h2>
+        <p class="product-price">ksh 3000</p>
+        <p>★★★★☆</p>
+        <button onclick="addToCart('Product 10', 3000)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+        <img src="/products/pic15.jpg" alt="Air force" class="product-image">
+        <h2 class="product-title">Puma</h2>
+        <p class="product-price">ksh 5000</p>
+        <p>★★★★☆</p>
+        <button onclick="addToCart('Product 11', 5000)">Add to Cart</button>
+    </div>
+</div>
+
+    <div id="cart">
+        <h3>Shopping Cart</h3>
+        <div id="cart-items"></div>
+        <p>Total: ksh<span id="cart-total">0.00</span></p>
+        <a href="cart.html" class="btn">Go to cart</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Shoe Emporium. All rights reserved.</p>
+      </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
